@@ -1,1 +1,4 @@
-require("nvimdev.plugin_config.colorscheme")
+-- DIRECTORIES
+
+-- Color Configuration
+require("nvimdev.plugin_config.color_config")
