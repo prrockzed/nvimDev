@@ -1,2 +1,5 @@
-require("nvimdev.keymaps")
-require("nvimdev.options")
+-- Core Setup
+require("nvimdev.core")
+
+-- Plugins Setup
+require("nvimdev.plugins")
