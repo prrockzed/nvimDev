@@ -1,0 +1,1 @@
+require("nvimdev.plugins.lazy")
