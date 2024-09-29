@@ -40,7 +40,7 @@ map("n", "<S-k>", "<Esc>:m .-2<CR>==gi", opts)
 
 -- Esc to No Highlight
 map("n", "<Esc>", ":noh <CR>", opts)
-map("n", "<Space>e", ":Lex <CR>", opts)
+map("n", "<Space>e", "<cmd> NvimTreeToggle <CR>", opts)
 
 -- Insert --
 -- Press kj fast to exit insert mode

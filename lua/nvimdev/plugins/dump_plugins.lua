@@ -13,6 +13,16 @@ local plugins_list = {
 		"navarasu/onedark.nvim",
 		lazy = false,
   },
+
+	-- nvim tree (a file explorer)
+	{
+		"nvim-tree/nvim-tree.lua",
+		version = "*",
+		lazy = false,
+		dependencies = {
+			"nvim-tree/nvim-web-devicons",
+		},
+	},
 }
 
 return plugins_list
