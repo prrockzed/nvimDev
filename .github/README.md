@@ -1,9 +1,20 @@
 <div align="center">
   <h1>nvimDev</h1>
+  <h4 align="center">
+    <a href="https://github.com/prrockzed/nvimdev/blob/master/INSTALL.md">Install</a>
+    ·
+    <a href="https://github.com/prrockzed/nvimDev/blob/main/.github/CONTRIBUTING.md">Contribute</a>
+    </br>
+    </br>
   <p>For those ready to transform their Workflow</p>
+ </h4>
+
   <p>
     <a href="https://github.com/prrockzed/nvimDev/releases/latest">
       <img alt="Latest release" src="https://img.shields.io/github/v/release/prrockzed/nvimDev?style=for-the-badge&logo=github&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41&include_prerelease&sort=semver" />
+    </a>
+    <a href="https://github.com/prrockzed/nvimDev/releases/latest">
+      <img alt="Release Date" src="https://img.shields.io/github/release-date/prrockzed/nvimDev?style=for-the-badge&logo=calendar&color=F2CDCD&logoColor=D9E0EE&labelColor=302D41" />
     </a>
     <a href="https://github.com/prrockzed/nvimDev/pulse">
       <img alt="Last commit" src="https://img.shields.io/github/last-commit/prrockzed/nvimDev?style=for-the-badge&logo=git&color=8bd5ca&logoColor=D9E0EE&labelColor=302D41"/>
@@ -11,10 +22,10 @@
     <a href="https://github.com/prrockzed/nvimDev/stargazers">
       <img alt="Stars" src="https://img.shields.io/github/stars/prrockzed/nvimDev?style=for-the-badge&logo=starship&color=c69ff5&logoColor=D9E0EE&labelColor=302D41" />
     </a>
+    </br>
     <a href="https://github.com/prrockzed/nvimDev/issues">
       <img alt="Issues" src="https://img.shields.io/github/issues/prrockzed/nvimDev?style=for-the-badge&logo=bilibili&color=F5E0DC&logoColor=D9E0EE&labelColor=302D41" />
     </a>
-    </br>
     <a href="https://github.com/prrockzed/nvimDev/blob/main/LICENSE">
       <img alt="License" src="https://img.shields.io/github/license/prrockzed/nvimDev?style=for-the-badge&logo=creativecommons&color=ee999f&logoColor=D9E0EE&labelColor=302D41" />
     </a>
@@ -30,25 +41,29 @@
 
 ---
 
-## 📑 Contents
+## Contents
 
 - [Introduction](#introduction)
-- [Dependencies](#dependencies)
-- [Installation](#installation)
-- [Contribution](#contribution)
+- [Why nvimDev?](#why-nvimdev)
+- [Requirements](#requirements)
+- [Getting Started](#getting-started)
 - [Acknowledgements](#acknowledgements)
+
+Note: Installation and Contribution is right at the top of this page
 
 ---
 
-## ✨ Introduction
+## Introduction
 
-Welcome to **nvimDev** – a sleek, fast, and highly customizable Neovim distribution built by me,
+Welcome to **nvimDev** – a sleek, fast, and highly customizable Neovim distribution started by
 </br>
 **Priyanshu Ranjan**, final-year student at **IIT Kharagpur**. 🌟
 
 This project started as a quest for the **perfect code editor**. While many Neovim distros exist, none had the **set of plugins or keybindings** I wanted(ofc this is not possible), nor did they offer a code structure that was simple to configure and understand. So, I decided to build one myself! 🚀
 
-### Why **nvimDev**?
+---
+
+## Why **nvimDev**?
 
 Most Neovim distros are either **too bloated** or **hard to customize**. The code structure is often complex, making it difficult for users to add their own configurations. That’s where **nvimDev** shines – it’s built to be:
 
@@ -64,133 +79,23 @@ Stay tuned for frequent updates as this project is still under development. 🌱
 
 ---
 
-## ⚡ Requirements
+## Requirements
 
-What you need to have?
+To get started with nvimDev, you’ll need the following:
 
-- OS - Linux/MacOS/WSL
-- [Neovim 0.10.0+, built with LuaJIT](https://github.com/neovim/neovim/releases/tag/stable)
-- A [Nerd Font](https://www.nerdfonts.com/font-downloads) (Optional)
-- A terminal with true color support (Optional)
-
----
-
-## 🛠️ Installation
-
-### Backup your Existing Configuration
-
-At first, backup your existing neovim configuration
-</br>
-Follow the below commands to backup:
-
-```sh
-mv ~/.config/nvim{,.bak}
-
-# optional but recommended
-mv ~/.local/share/nvim{,.bak}
-mv ~/.local/state/nvim{,.bak}
-mv ~/.cache/nvim{,.bak}
-```
-
-</br>
-If you don't have one or don't care about it, just forget it
-</br>
-</br>
-Mastering manual processes is essential for any programmer!
-</br>
-So, let's take the time to clone the repository manually(it's easy)
-
-### Clone (Linux/MacOS/WSL)
-
-- Follow one of the following commands. Either one is fine.
-
-```sh
-# Directly clone the repository to the ~/.config/nvim folder
-git clone https://github.com/prrockzed/nvimDev.git ~/.config/nvim
-```
-
-<p align="center">OR</p>
-
-```sh
-# Clone the repository and symlink it with your ~/.config/nvim folder
-git clone https://github.com/prrockzed/nvimDev.git
-
-# Replace the ~/path/to/nvimDev with your own path
-ln -s ~/path/to/nvimDev ~/.config/nvim
-```
-
-- Now delete the .git folder to enable adding this to your own repository later
-
-```sh
-rm -rf ~/.config/nvim/.git
-```
-
-### Downloading from Releases
-
-Like a specific release? Download from previous releases
-
-- Go to the releases part in the about section
-- Click on the specific release
-- Download the the source code
-- Move the contents of the folder to the nvim repo on your machine
-
-### Getting Started
-
-Wanna start 'nviming'? Enter the below command
-
-```sh
-nvim .
-```
-
-You are good to go now! 😎
-</br>
-Enjoy Coding
+- **Operating System**: Linux/MacOS/WSL (Windows support coming soon)
+- **[Neovim](https://github.com/neovim/neovim/releases/tag/stable)**: Version 0.10.0+ (built with LuaJIT)
+- **[Nerd Font](https://www.nerdfonts.com/font-downloads)**: Optional for enhanced UI
+- **Terminal**: One with true color support (optional for better aesthetics)
 
 ---
 
-## 🤝 Contribution
+## Getting Started
 
-Whether you're fixing bugs, improving the configuration, adding new features or just want to update Readme!
-</br>
-Want to document the Distro? Add about Configuration, Keybindings, Commands and Plugins to the Wiki Section.
-</br>
-</br>
-I’m eager to collaborate with anyone passionate about improving nvimDev.
-</br>
-If you have ideas or suggestions, feel free to open an issue or submit a pull request.
-</br>
-
-### How to Contribute:
-
-1. Fork the repository.
-
-2. Create a new branch
-
-```sh
-# replace feature-name with your feature
-git checkout -b feature-name
-```
-
-4. Make your changes and commit
-
-```sh
-# write a meaningful commit message concluding your feature
-git commit -m "Added some feature"
-```
-
-6. Push to the branch
-
-```sh
-git push origin feature-name
-```
-
-8. Open a pull request
-
-</br>
-Feel free to reach out if you have any questions! Let's make this project better together.
+If you're new to Neovim or looking for guidance, we highly recommend visiting the [Wiki Section](https://github.com/prrockzed/nvimDev/wiki)(Currently in Development Phase) for documentation. Beginners can find in-depth tutorials to help them get up and running, while advanced users will discover insights and tips to get the most out of nvimDev.
 
 ---
 
-## ⭐ Acknowledgements
+## Acknowledgements
 
 Thanks to [Neovim](https://github.com/neovim/neovim) for enabling the creation of a powerful and customizable terminal-based code editor
