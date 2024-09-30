@@ -1,10 +1,10 @@
 ## 🚀 Pull Request Overview
 
-Note:
+<!-- Note:
 
-- I expect everyone to put a 'y' or a 'n' between [ ]
-- For example: [y] or [n]
-- Whichever section is not applicable, replace "(e.g., Added `nvim-tree` plugin for ...)" with "N/A"
+- To check the `[ ]` box, write 'x' between the square brackets
+- Leave the box unchecked if it is not applicable to you
+- Whichever section is not applicable, replace "(e.g., Added `nvim-tree` plugin for ...)" with "N/A" -->
 
 ### Summary:
 
@@ -19,18 +19,14 @@ Note:
 
 ### 🐛 Bug Fix:
 
-<!-- List the major changes included in this pull request. Feel free to add sections for each type of change if needed. -->
+<!-- List the major/minor bug fixed included in this pull request. Feel free to add sections if needed. -->
 
 1. **Bug**: (e.g., Fixed issue where `options.lua` would crash if a specific plugin was missing.)
-   </br>
    **Proposed Solution**: (e.g., Changing the mouse property/line 23 would work)
-   </br>
    **Is it OS/Terminal Specific**: (e.g., macOS and kitty terminal)
 
 2. **Bug**: (e.g., Fixed issue where `options.lua` would crash if a specific plugin was missing.)
-   </br>
    **Proposed Solution**: (e.g., Changing the mouse property/line 23 would work)
-   </br>
    **Is it OS/Terminal Specific**: (e.g., macOS and kitty terminal)
 
 ---
@@ -40,19 +36,13 @@ Note:
 <!-- If the PR includes changes to plugins, provide a summary of the added or modified plugin configuration. -->
 
 1. **New Plugin**: (e.g., `nvim-tree` plugin)
-   </br>
    **Plugin Use**: (e.g., `nvim-tree` allows users to explore and manage files directly within Neovim.)
-   </br>
    **Plugin Configuration**: (e.g., Added Custom/Ready-made Configuration - to the plugin_config folder)
-   </br>
    **Plugin Link**: (e.g., https://github.com/nvim-tree/nvim-tree.lua)
 
 2. **New Plugin**: (e.g., `nvim-tree` plugin)
-   </br>
    **Plugin Use**: (e.g., `nvim-tree` allows users to explore and manage files directly within Neovim.)
-   </br>
    **Plugin Configuration**: (e.g., Added Custom/Ready-made Configuration - to the plugin_config folder)
-   </br>
    **Plugin Link**: (e.g., https://github.com/nvim-tree/nvim-tree.lua)
 
 ---
