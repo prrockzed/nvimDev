@@ -3,7 +3,7 @@
 I know you are eager to contribute, but first go through the following documents:
 
 1. [Reqiurements](https://github.com/noobdumbledore/nvimDev/blob/main/.github/README.md#requirements)
-2. [Installation](https://github.com/prrockzed/nvimdev/blob/master/INSTALL.md)
+2. [Installation](https://github.com/prrockzed/nvimdev/blob/main/INSTALL.md)
 
 </br>
 Whether you want to fix bugs, improve the configuration, add new features or just want to update Readme or docs!
