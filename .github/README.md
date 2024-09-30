@@ -1,7 +1,7 @@
 <div align="center">
   <h1>nvimDev</h1>
   <h4 align="center">
-    <a href="https://github.com/prrockzed/nvimdev/blob/master/INSTALL.md">Install</a>
+    <a href="https://github.com/prrockzed/nvimdev/blob/main/INSTALL.md">Install</a>
     ·
     <a href="https://github.com/prrockzed/nvimDev/blob/main/.github/CONTRIBUTING.md">Contribute</a>
     </br>
