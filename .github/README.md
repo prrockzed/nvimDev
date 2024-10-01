@@ -47,6 +47,7 @@
 - [Why nvimDev?](#why-nvimdev)
 - [Requirements](#requirements)
 - [Getting Started](#getting-started)
+- [Support](#support)
 - [Acknowledgements](#acknowledgements)
 
 Note: Installation and Contribution is right at the top of this page
@@ -59,7 +60,7 @@ Welcome to **nvimDev** – a sleek, fast, and highly customizable Neovim distrib
 </br>
 **Priyanshu Ranjan**, final-year student at **IIT Kharagpur**. 🌟
 
-This project started as a quest for the **perfect code editor**. While many Neovim distros exist, none had the **set of plugins or keybindings** I wanted(ofc this is not possible), nor did they offer a code structure that was simple to configure and understand. So, I decided to build one myself! 🚀
+This project started as a quest for the **perfect code editor**. While many Neovim distros exist, none had the **set of plugins or keybindings** I wanted(ofc this is not possible), nor did they offer a code structure that was simple to configure and understand. So, after experimenting with and ultimately discarding two previous Neovim configurations, I took inspiration from those experiences to build this ultimate Neovim distribution. 🚀
 
 ---
 
@@ -87,15 +88,35 @@ To get started with nvimDev, you’ll need the following:
 - **[Neovim](https://github.com/neovim/neovim/releases/tag/stable)**: Version 0.10.0+ (built with LuaJIT)
 - **[Nerd Font](https://www.nerdfonts.com/font-downloads)**: Optional for enhanced UI
 - **Terminal**: One with true color support (optional for better aesthetics)
+- **[Clipboard-Tool](https://neovim.io/doc/user/provider.html#clipboard-tool)**: Essential for integrating with the system clipboard
 
 ---
 
 ## Getting Started
 
-If you're new to Neovim or looking for guidance, we highly recommend visiting the [Wiki Section](https://github.com/prrockzed/nvimDev/wiki)(Currently in Development Phase) for documentation. Beginners can find in-depth tutorials to help them get up and running, while advanced users will discover insights and tips to get the most out of nvimDev.
+If you're new to Neovim or looking for guidance, we highly recommend visiting the **[Wiki Section](https://github.com/prrockzed/nvimDev/wiki)** (Currently in Development Phase) for documentation. Beginners can find in-depth tutorials to help them get up and running, while advanced users will discover insights and tips to get the most out of nvimDev.
+
+The folder structure of the project is explained in the **[v1.0.0 Release Notes](https://github.com/prrockzed/nvimDev/releases/tag/v1.0.0)**, so you can easily understand how everything is organized.
+
+After installing, you can start the project by typing '`nvim`' in your terminal. If you ever feel overwhelmed or need assistance with the keybindings, simply press `<Space>` in normal mode to display all the important key mappings available to you.
+
+Additionally, if you want to tweak the configuration to your liking or wish to contribute to the project, check out **[Guide to Getting Started](https://github.com/prrockzed/nvimDev/blob/main/.github/CONTRIBUTING.md#guide-to-getting-started)**
+
+If you have any questions related to using Neovim, encounter issues, or wish to reach out to me for any other discussions about this project, please feel free to use the **[Discussion Forum](https://github.com/prrockzed/nvimDev/discussions)** available on the repository.
+
+---
+
+## Support
+
+If you like this project, please consider giving it a star ⭐ on GitHub – it helps the project grow and reach more people! Your support is much appreciated!
+</br>
+
+If you're interested in supporting the development of nvimDev further, please consider [sponsoring this project](https://github.com/sponsors/prrockzed). Your contributions will help cover expenses and enable more frequent updates and enhancements. Thank you for your support!
 
 ---
 
 ## Acknowledgements
 
-Thanks to [Neovim](https://github.com/neovim/neovim) for enabling the creation of a powerful and customizable terminal-based code editor
+Thanks to [Neovim](https://github.com/neovim/neovim) for enabling the creation of a powerful and customizable terminal-based code editor.
+</br>
+A special thank you to the creators and maintainers of the plugins used in the repo, which have significantly improved the functionality and user experience of nvimDev.

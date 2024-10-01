@@ -2,7 +2,7 @@
 
 ## Before You Begin
 
-Make sure to check the [Requirements](https://github.com/noobdumbledore/nvimDev/blob/main/.github/README.md#requirements) before proceeding. This ensures your system is properly set up for a smooth installation experience.
+Make sure to check the [Requirements](https://github.com/prrockzed/nvimDev/blob/main/.github/README.md#requirements) before proceeding. This ensures your system is properly set up for a smooth installation experience.
 
 Once you've met the necessary requirements, installing **nvimDev** is straightforward.
 </br>
