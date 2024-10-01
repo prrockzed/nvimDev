@@ -38,9 +38,8 @@ map("n", "<S-h>", ":bprevious<CR>", opts)
 map("n", "<S-j>", "<Esc>:m .+1<CR>==gi", opts)
 map("n", "<S-k>", "<Esc>:m .-2<CR>==gi", opts)
 
--- Esc to No Highlight
+-- Others
 map("n", "<Esc>", ":noh <CR>", opts)
-map("n", "<Space>e", "<cmd> NvimTreeToggle <CR>", opts)
 
 -- Insert --
 -- Press kj fast to exit insert mode
