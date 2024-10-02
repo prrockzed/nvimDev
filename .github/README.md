@@ -86,9 +86,11 @@ To get started with nvimDev, you’ll need the following:
 
 - **Operating System**: Linux/MacOS/WSL (Windows support coming soon)
 - **[Neovim](https://github.com/neovim/neovim/releases/tag/stable)**: Version 0.10.0+ (built with LuaJIT)
-- **[Nerd Font](https://www.nerdfonts.com/font-downloads)**: Optional for enhanced UI
-- **Terminal**: One with true color support (optional for better aesthetics)
+- **[Nerd Font](https://www.nerdfonts.com/font-downloads)**: For enhanced UI
 - **[Clipboard-Tool](https://neovim.io/doc/user/provider.html#clipboard-tool)**: Essential for integrating with the system clipboard
+- **Optional(but Recommended):**
+  - Terminal: One with true color support (For better aesthetics)
+  - [Ripgrep](https://github.com/BurntSushi/ripgrep) - Live grep telescope search (<Leader>Fl)
 
 ---
 
