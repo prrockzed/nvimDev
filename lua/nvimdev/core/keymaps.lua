@@ -31,19 +31,39 @@ map("n", "<C-a>", ":vertical resize -2<CR>", opts)
 map("n", "<C-s>", ":vertical resize +2<CR>", opts)
 
 -- Navigate buffers
-map("n", "<S-l>", ":bnext<CR>", opts)
-map("n", "<S-h>", ":bprevious<CR>", opts)
+map("n", "<S-l>", ":BufferNext<CR>", opts)
+map("n", "<S-h>", ":BufferPrevious<CR>", opts)
+
+-- Move Buffers
+map("n", "<S-i>", ":BufferMoveNext<CR>", opts)
+map("n", "<S-u>", ":BufferMovePrevious<CR>", opts)
 
 -- Move text up and down
 map("n", "<S-j>", "<Esc>:m .+1<CR>==gi", opts)
 map("n", "<S-k>", "<Esc>:m .-2<CR>==gi", opts)
 
 -- Others
-map("n", "<Esc>", ":noh <CR>", opts)
+map("n", "<Esc>", ":noh <CR>", opts) -- Esc to No Highlight
+map("n", "q", ":noh <CR>", opts) -- Esc to No Highlight
+map("n", "<C-c>", "<cmd> %y+ <CR><CR>", opts) -- Copy Whole File
+map("n", "d", '"_d', opts) -- Delete Without Yanking
 
 -- Insert --
 -- Press kj fast to exit insert mode
 map("i", "kj", "<ESC>", opts)
+
+-- go to  beginning and end
+map("i", "<C-b>", "<ESC>^i", opts) -- beginning of line
+map("i", "<C-e>", "<End>", opts) -- end of line
+
+-- to enter digraphs symbols in vim
+map("i", "<C-s>", "<C-k>", opts)
+
+-- navigate within insert mode
+map("i", "<C-h>", "<Left>", opts) -- Move left
+map("i", "<C-l>", "<Right>", opts) -- Move right
+map("i", "<C-j>", "<Down>", opts) -- Move down
+map("i", "<C-k>", "<Up>", opts) -- Move up
 
 -- Visual --
 -- Stay in indent mode
