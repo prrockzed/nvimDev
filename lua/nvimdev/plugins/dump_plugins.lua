@@ -19,6 +19,12 @@ local plugins_list = {
 		event = "VeryLazy",
 	},
 
+	-- find projects across the machine
+	{
+		"ahmedkhalf/project.nvim",
+		lazy = false,
+	},
+
 	-- tabline at the top
 	{
 		"romgrk/barbar.nvim",
