@@ -8,6 +8,17 @@ local plugins_list = {
     "folke/lazydev.nvim",
   },
 
+	-- telescope
+	{
+		"nvim-telescope/telescope.nvim",
+		dependencies = { "nvim-lua/plenary.nvim",
+    "nvim-telescope/telescope-live-grep-args.nvim" ,},
+	},
+	    {
+		"nvim-telescope/telescope-ui-select.nvim", -- sets vim.ui.select to telescope
+		event = "VeryLazy",
+	},
+
 	-- tabline at the top
 	{
 		"romgrk/barbar.nvim",
