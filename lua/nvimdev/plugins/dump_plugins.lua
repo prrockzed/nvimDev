@@ -8,22 +8,6 @@ local plugins_list = {
     "folke/lazydev.nvim",
   },
 
-  -- colorscheme plugins
-  {
-		"navarasu/onedark.nvim",
-		lazy = false,
-  },
-
-	-- nvim tree (a file explorer)
-	{
-		"nvim-tree/nvim-tree.lua",
-		version = "*",
-		lazy = false,
-		dependencies = {
-			"nvim-tree/nvim-web-devicons",
-		},
-	},
-
 	-- tabline at the top
 	{
 		"romgrk/barbar.nvim",
@@ -38,6 +22,47 @@ local plugins_list = {
 	-- status line at the bottom
 	{
 		"nvim-lualine/lualine.nvim",
+		lazy = false,
+		dependencies = {
+			"nvim-tree/nvim-web-devicons",
+		},
+	},
+
+  -- colorscheme plugins
+  {
+		"navarasu/onedark.nvim",
+		lazy = false,
+  },
+	{
+		"EdenEast/nightfox.nvim",
+		event = "VeryLazy",
+	},
+	{
+		"folke/tokyonight.nvim",
+		event = "VeryLazy",
+	},
+	{
+		"romgrk/doom-one.vim",
+		event = "VeryLazy",
+	},
+	{
+		"catppuccin/nvim",
+		name = "catppuccin",
+		event = "VeryLazy",
+	},
+	{
+		"rebelot/kanagawa.nvim",
+		event = "VeryLazy",
+	},
+	{
+		"ellisonleao/gruvbox.nvim",
+		event = "VeryLazy",
+	},
+
+	-- nvim tree (a file explorer)
+	{
+		"nvim-tree/nvim-tree.lua",
+		version = "*",
 		lazy = false,
 		dependencies = {
 			"nvim-tree/nvim-web-devicons",
