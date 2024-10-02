@@ -4,7 +4,13 @@ local plugins_list = {
   -- which-key plugin
   {
     "folke/which-key.nvim",
-    { "folke/neoconf.nvim", cmd = "Neoconf" },
+    version = "v1.6.0",
+  },
+  { 
+    "folke/neoconf.nvim",
+    cmd = "Neoconf"
+  },
+  {
     "folke/lazydev.nvim",
   },
 
