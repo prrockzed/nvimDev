@@ -72,9 +72,9 @@ Like a specific release? Download from previous releases
 - Download the the source code
 - Move the contents of the folder to the nvim repo on your machine
 
-## Installation
+### Installation
 
-### For .zip Files
+#### For .zip Files
 
 - Download the .zip file:
    ```sh
@@ -88,7 +88,7 @@ Like a specific release? Download from previous releases
    ```bash
       mv nvim-release/* ~/.config/nvim/
    
-### For .tar.gz file:
+#### For .tar.gz file:
 
 - Download the .tar.gz file:
 ```bash
