@@ -107,6 +107,47 @@ Additionally, if you want to tweak the configuration to your liking or wish to c
 If you have any questions related to using Neovim, encounter issues, or wish to reach out to me for any other discussions about this project, please feel free to use the **[Discussion Forum](https://github.com/prrockzed/nvimDev/discussions)** available on the repository.
 
 ---
+## Custom Configration
+To create a custom configuration for Neovim, follow these steps:
+
+- Create a custom configuration folder:
+
+   Inside the Neovim configuration directory, typically located at `~/.config/nvim`, create a new folder for your custom configurations. You can name this folder anything you like, but for this example, we’ll name it `custom`.
+
+```bash
+mkdir -p ~/.config/nvim/lua/custom
+```
+- Create a custom init.lua file:
+
+Inside the custom folder, create a new Lua file to hold your custom configurations. For example, create a file named my_config.lua:
+
+```bash
+touch ~/.config/nvim/lua/custom/my_config.lua
+```
+
+- Edit your init.lua file:
+Open the main init.lua file located in ~/.config/nvim/. If it doesn’t exist, you can create it. Add the following line to ensure that Neovim loads your custom configuration:
+
+```bash
+require('custom.my_config')
+```
+
+- Add your custom configurations:
+Open the my_config.lua file and start adding your custom Neovim settings, mappings, and plugins as needed. For example:
+
+```bash
+-- Example custom configuration
+vim.o.number = true             
+vim.o.relativenumber = true
+```
+
+- Reload Neovim:
+After making these changes, restart Neovim or source your init.lua to apply the new configuration:
+
+```bash
+:source ~/.config/nvim/init.lua
+```
+
 
 ## Support
 
