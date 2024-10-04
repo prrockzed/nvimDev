@@ -160,6 +160,8 @@ After making these changes, restart Neovim or source your init.lua to apply the 
 :source ~/.config/nvim/init.lua
 ```
 
+---
+
 ## Support
 
 If you like this project, please consider giving it a star ⭐ on GitHub – it helps the project grow and reach more people! Your support is much appreciated!
