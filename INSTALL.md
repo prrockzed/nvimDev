@@ -72,14 +72,49 @@ Like a specific release? Download from previous releases
 - Download the the source code
 - Move the contents of the folder to the nvim repo on your machine
 
-## Getting Started
+### Installation
 
-Wanna start 'nviming'? Enter the below command
+#### For .zip Files
 
-```sh
-nvim .
+- Download the .zip file:
+   ```sh
+   curl -L -o nvim-release.zip https://github.com/prrockzed/nvimDev/archive/refs/tags/v0.10.zip
+   
+- Unpack the .zip file:
+   ```bash
+   unzip nvim-release.zip -d nvim-release
+
+- Move the contents to the nvim folder:**
+   ```bash
+      mv nvim-release/* ~/.config/nvim/
+   
+#### For .tar.gz file:
+
+- Download the .tar.gz file:
+```bash
+curl -L -o nvim-release.tar.gz https://github.com/neovim/neovim/releases/download/v0.10.0/nvim-linux64.tar.gz
 ```
 
-You are good to go now! 😎
+- Create a directory to unpack the files:
+```bash
+mkdir -p nvim-release
+```
+
+- Unpack the .tar.gz file:
+```bash
+tar -xzf nvim-release.tar.gz -C nvim-release
+```
+- Move the contents to the Neovim folder:
+```bash
+mv nvim-release/* /usr/local/bin/nvim/
+```
+## Unistallation
+To uninstall **nvimDev**, you can remove the `nvim` folder and any related configuration files. Here are the steps:
+
+- Remove the nvim configuration folder:
+   ```bash
+   rm -rf ~/.config/nvim
+   ```
+ You are good to go now! 😎
 </br>
 Enjoy Coding
