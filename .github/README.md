@@ -47,14 +47,16 @@
 - [Why nvimDev?](#why-nvimdev)
 - [Requirements](#requirements)
 - [Getting Started](#getting-started)
+- [Custom Configuration](#custom-configuration)
 - [Support](#support)
 - [Acknowledgements](#acknowledgements)
+
 
 Note: Installation and Contribution is right at the top of this page
 
 ---
 
-### Introduction
+## Introduction
 
 Welcome to **nvimDev** – a sleek, fast, and highly customizable Neovim distribution started by
 </br>
@@ -64,7 +66,7 @@ This project started as a quest for the **perfect code editor**. While many Neov
 
 ---
 
-### Why **nvimDev**?
+## Why **nvimDev**?
 
 Most Neovim distros are either **too bloated** or **hard to customize**. The code structure is often complex, making it difficult for users to add their own configurations. That’s where **nvimDev** shines – it’s built to be:
 
@@ -80,7 +82,7 @@ Stay tuned for frequent updates as this project is still under development. 🌱
 
 ---
 
-### Requirements
+## Requirements
 
 To get started with nvimDev, you’ll need the following:
 
@@ -94,7 +96,7 @@ To get started with nvimDev, you’ll need the following:
 
 ---
 
-### Getting Started
+## Getting Started
 
 If you're new to Neovim or looking for guidance, we highly recommend visiting the **[Wiki Section](https://github.com/prrockzed/nvimDev/wiki)** (Currently in Development Phase) for documentation. Beginners can find in-depth tutorials to help them get up and running, while advanced users will discover insights and tips to get the most out of nvimDev.
 
@@ -106,9 +108,59 @@ Additionally, if you want to tweak the configuration to your liking or wish to c
 
 If you have any questions related to using Neovim, encounter issues, or wish to reach out to me for any other discussions about this project, please feel free to use the **[Discussion Forum](https://github.com/prrockzed/nvimDev/discussions)** available on the repository.
 
+Contents
+Introduction
+Why nvimDev?
+Requirements
+Getting Started
+Support
+Acknowledgements
+Note: Installation and Contribution is right at the top of this page
+
 ---
 
-### Support
+## Custom Configuration
+To create a custom configuration for Neovim, follow these steps:
+
+- Create a custom configuration folder:
+
+   Inside the Neovim configuration directory, typically located at `~/.config/nvim`, create a new folder for your custom configurations. You can name this folder anything you like, but for this example, we’ll name it `custom`.
+
+```bash
+mkdir -p ~/.config/nvim/lua/custom
+```
+- Create a custom init.lua file:
+
+Inside the custom folder, create a new Lua file to hold your custom configurations. For example, create a file named my_config.lua:
+
+```bash
+touch ~/.config/nvim/lua/custom/my_config.lua
+```
+
+- Edit your init.lua file:
+Open the main init.lua file located in ~/.config/nvim/. If it doesn’t exist, you can create it. Add the following line to ensure that Neovim loads your custom configuration:
+
+```bash
+require('custom.my_config')
+```
+
+- Add your custom configurations:
+Open the my_config.lua file and start adding your custom Neovim settings, mappings, and plugins as needed. For example:
+
+```bash
+-- Example custom configuration
+vim.o.number = true             
+vim.o.relativenumber = true
+```
+
+- Reload Neovim:
+After making these changes, restart Neovim or source your init.lua to apply the new configuration:
+
+```bash
+:source ~/.config/nvim/init.lua
+```
+
+## Support
 
 If you like this project, please consider giving it a star ⭐ on GitHub – it helps the project grow and reach more people! Your support is much appreciated!
 </br>
@@ -117,7 +169,7 @@ If you're interested in supporting the development of nvimDev further, please co
 
 ---
 
-### Acknowledgements
+## Acknowledgements
 
 Thanks to [Neovim](https://github.com/neovim/neovim) for enabling the creation of a powerful and customizable terminal-based code editor.
 </br>
