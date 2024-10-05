@@ -162,6 +162,20 @@ After making these changes, restart Neovim or source your init.lua to apply the 
 
 ---
 
+## 👀 Our Contributors
+
+- We extend our heartfelt gratitude for your invaluable contribution to our project! Your efforts play a pivotal role in elevating Ratna-Supermarket to greater heights.
+- Make sure you show some love by giving ⭐ to our repository.
+
+<div align="center">
+
+  <a href="https://github.com/prrockzed/nvimDev">
+    <img src="https://contrib.rocks/image?repo=prrockzed/nvimDev&&max=1000" />
+  </a>
+</div>
+
+---
+
 ## Support
 
 If you like this project, please consider giving it a star ⭐ on GitHub – it helps the project grow and reach more people! Your support is much appreciated!
