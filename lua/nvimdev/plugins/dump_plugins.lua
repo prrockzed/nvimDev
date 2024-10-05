@@ -53,8 +53,8 @@ local plugins_list = {
 
   -- colorscheme plugins
   {
-		"navarasu/onedark.nvim",
-		lazy = false,
+    "olimorris/onedarkpro.nvim",
+    priority = 1000, -- Ensure it loads first
   },
 	{
 		"EdenEast/nightfox.nvim",

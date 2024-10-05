@@ -1,5 +1,5 @@
 -- colorschemes configuration goes here
-require("nvimdev.plugin_config.color_config.onedark")
+require("nvimdev.plugin_config.color_config.onedarkpro")
 require("nvimdev.plugin_config.color_config.nightfox")
 require("nvimdev.plugin_config.color_config.tokyonight")
 require("nvimdev.plugin_config.color_config.catppuccin")
@@ -16,7 +16,7 @@ require("nvimdev.plugin_config.color_config.gruvbox")
 -- doom-one (imported from emacs)
 
 -- colorscheme configuration
-local colorscheme = "onedark"
+local colorscheme = "onedark_dark"
 
 local status_ok, _ = pcall(vim.cmd.colorscheme, colorscheme)
 if not status_ok then
