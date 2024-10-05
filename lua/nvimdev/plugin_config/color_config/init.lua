@@ -16,7 +16,7 @@ require("nvimdev.plugin_config.color_config.gruvbox")
 -- doom-one (imported from emacs)
 
 -- colorscheme configuration
-local colorscheme = "onedark_dark"
+local colorscheme = "onedark_vivid"
 
 local status_ok, _ = pcall(vim.cmd.colorscheme, colorscheme)
 if not status_ok then
