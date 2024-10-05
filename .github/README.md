@@ -48,6 +48,7 @@
 - [Requirements](#requirements)
 - [Getting Started](#getting-started)
 - [Custom Configuration](#custom-configuration)
+- [Contributors](#our-contributors)
 - [Support](#support)
 - [Acknowledgements](#acknowledgements)
 
@@ -162,7 +163,7 @@ After making these changes, restart Neovim or source your init.lua to apply the 
 
 ---
 
-## 👀 Our Contributors
+## Our Contributors
 
 - We extend our heartfelt gratitude for your invaluable contribution to our project! Your efforts play a pivotal role in elevating Ratna-Supermarket to greater heights.
 - Make sure you show some love by giving ⭐ to our repository.
