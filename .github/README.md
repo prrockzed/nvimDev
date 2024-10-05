@@ -48,6 +48,7 @@
 - [Requirements](#requirements)
 - [Getting Started](#getting-started)
 - [Custom Configuration](#custom-configuration)
+- [Contributors](#our-contributors)
 - [Support](#support)
 - [Acknowledgements](#acknowledgements)
 
@@ -159,6 +160,19 @@ After making these changes, restart Neovim or source your init.lua to apply the 
 ```bash
 :source ~/.config/nvim/init.lua
 ```
+
+---
+
+## Our Contributors
+
+We extend our heartfelt gratitude for your invaluable contribution to our project! Your efforts play a pivotal role in elevating this project to greater heights.
+
+<div align="center">
+
+  <a href="https://github.com/prrockzed/nvimDev">
+    <img src="https://contrib.rocks/image?repo=prrockzed/nvimDev&&max=1000" />
+  </a>
+</div>
 
 ---
 
