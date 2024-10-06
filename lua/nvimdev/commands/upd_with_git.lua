@@ -57,6 +57,8 @@ M.update_with_git = function()
   else
     -- No unstaged changes, pull the latest changes
     vim.notify("Pulling latest changes...")
+
+    local changes = 1
     vim.fn.jobstart({ "git", "pull", "--rebase" }, {
       stdout_buffered = true,
       on_stdout = function(_, data)
@@ -71,11 +73,15 @@ M.update_with_git = function()
       on_exit = function(_, exit_code)
         if exit_code == 0 then
           vim.notify("nvimDev updated! Happy coding!", vim.log.levels.INFO)
+          local changes = 0
         else
           vim.notify("Failed to update nvimDev.", vim.log.levels.ERROR)
         end
       end,
     })
+    if changes then
+      vim.notify("No updates required. You are already updated!")
+    end
   end
 end
 
