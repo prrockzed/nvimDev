@@ -42,7 +42,7 @@ M.update_with_git = function()
   -- Check for unstaged changes
   if check_for_unstaged_changes() then
     vim.ui.input({
-      prompt = "Unstaged changes detected!\nWould you like to automatically stage and commit them? (y/n): ",
+      prompt = "Unstaged changes detected!\nAuto stage and commit(You will be prompted for a commit message)? (y/n): ",
       default = "",
     }, function(input)
       if input == "y" then

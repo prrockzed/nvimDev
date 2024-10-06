@@ -53,7 +53,7 @@ M.update_without_git = function()
               vim.fn.mkdir(nvim_config_path, "p")
               copy_dir(extracted_folder, nvim_config_path)
 
-              vim.notify("nvimDev updated! Restart Neovim to apply changes.", vim.log.levels.INFO)
+              vim.notify("nvimDev updated! Happy coding!\nRestart Neovim to apply changes.", vim.log.levels.INFO)
             else
               vim.notify("Failed to unzip the archive.", vim.log.levels.ERROR)
             end

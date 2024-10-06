@@ -1,7 +1,7 @@
 local M = {}
 
-local update_with_git = require('nvimdev.commands.upd_with_git').update_with_git
-local update_without_git = require('nvimdev.commands.upd_without_git').update_without_git
+local update_with_git = require('nvimdev.commands.nightly_git').update_with_git
+local update_without_git = require('nvimdev.commands.nightly_nogit').update_without_git
 
 -- Function to detect if a .git folder exists in ~/.config/nvim
 local function has_git_folder()
