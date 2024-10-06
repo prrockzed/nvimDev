@@ -72,9 +72,10 @@ M.update_with_git = function()
       end,
       on_exit = function(_, exit_code)
         if exit_code == 0 then
+          changes = 0
           vim.notify("nvimDev updated! Happy coding!", vim.log.levels.INFO)
-          local changes = 0
         else
+          changes = 0
           vim.notify("Failed to update nvimDev.", vim.log.levels.ERROR)
         end
       end,
