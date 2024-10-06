@@ -16,10 +16,21 @@ M.update_nvimdev = function()
     vim.notify("Git repository detected. Updating using Git...", vim.log.levels.INFO)
     update_with_git()
   else
-    vim.notify("No Git repository found. Updating via archive download...", vim.log.levels.INFO)
-    update_without_git()
+    -- Ask the user if they want to update via archive download
+    vim.ui.input({
+      vim.notify("No Git repository found.", vim.log.levels.INFO),
+      vim.notify("Warning: This will replace your current config with the latest version, and you will lose any custom configuration.", vim.log.levels.WARN),
+      prompt = "Update via archive? (y/n): ",
+      default = "",
+    }, function(input)
+      if input == "y" then
+        vim.notify("Updating via archive download...", vim.log.levels.INFO)
+        update_without_git()
+      else
+        vim.notify("Aborted: The config cannot be updated. Use a version with a .git folder to maintain your current config.", vim.log.levels.ERROR)
+      end
+    end)
   end
 end
 
 return M
-
