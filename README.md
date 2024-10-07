@@ -52,7 +52,6 @@
 - [Support](#support)
 - [Acknowledgements](#acknowledgements)
 
-
 Note: Installation and Contribution is right at the top of this page
 
 ---
@@ -121,15 +120,17 @@ Note: Installation and Contribution is right at the top of this page
 ---
 
 ## Custom Configuration
+
 To create a custom configuration for Neovim, follow these steps:
 
 - Create a custom configuration folder:
 
-   Inside the Neovim configuration directory, typically located at `~/.config/nvim`, create a new folder for your custom configurations. You can name this folder anything you like, but for this example, we’ll name it `custom`.
+  Inside the Neovim configuration directory, typically located at `~/.config/nvim`, create a new folder for your custom configurations. You can name this folder anything you like, but for this example, we’ll name it `custom`.
 
 ```bash
 mkdir -p ~/.config/nvim/lua/custom
 ```
+
 - Create a custom init.lua file:
 
 Inside the custom folder, create a new Lua file to hold your custom configurations. For example, create a file named my_config.lua:
@@ -139,42 +140,27 @@ touch ~/.config/nvim/lua/custom/my_config.lua
 ```
 
 - Edit your init.lua file:
-Open the main init.lua file located in ~/.config/nvim/. If it doesn’t exist, you can create it. Add the following line to ensure that Neovim loads your custom configuration:
+  Open the main init.lua file located in ~/.config/nvim/. If it doesn’t exist, you can create it. Add the following line to ensure that Neovim loads your custom configuration:
 
 ```bash
 require('custom.my_config')
 ```
 
 - Add your custom configurations:
-Open the my_config.lua file and start adding your custom Neovim settings, mappings, and plugins as needed. For example:
+  Open the my_config.lua file and start adding your custom Neovim settings, mappings, and plugins as needed. For example:
 
 ```bash
 -- Example custom configuration
-vim.o.number = true             
+vim.o.number = true
 vim.o.relativenumber = true
 ```
 
 - Reload Neovim:
-After making these changes, restart Neovim or source your init.lua to apply the new configuration:
+  After making these changes, restart Neovim or source your init.lua to apply the new configuration:
 
 ```bash
 :source ~/.config/nvim/init.lua
 ```
-
----
-
-## Our Contributors
-
-We extend our heartfelt gratitude for your invaluable contribution to our project! Your efforts play a pivotal role in elevating this project to greater heights.
-
-<div align="center">
-
-  <a href="https://github.com/prrockzed/nvimDev">
-    <img src="https://contrib.rocks/image?repo=prrockzed/nvimDev&&max=1000" />
-  </a>
-</div>
-
----
 
 ## Support
 
@@ -190,3 +176,18 @@ If you're interested in supporting the development of nvimDev further, please co
 Thanks to [Neovim](https://github.com/neovim/neovim) for enabling the creation of a powerful and customizable terminal-based code editor.
 </br>
 A special thank you to the creators and maintainers of the plugins used in the repo, which have significantly improved the functionality and user experience of nvimDev.
+
+## Contributing People List
+
+> Contributions are welcome!
+
+Specially thanks ❤️ for contributors bellow:
+
+<a href="https://github.com/jahnvisahni31/github-readme-profile/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=prrockzed/nvimDev" />
+</a>
+
+## Contributors
+
+| [MIGHTY1o1](https://github.com/MIGHTY1o1) | [Muhammad Ahsan Atiq](https://github.com/Muhammad Ahsan Atiq) | [Priyanshu Ranjan](https://github.com/Priyanshu Ranjan) | [Shariq](https://github.com/Shariq) | [prrockzed](https://github.com/prrockzed) |  |
+
