@@ -148,6 +148,33 @@ local plugins_list = {
 		require("nvim-tree").setup {}
 	  end,
 	},
+	-- Autopairs plugin for automatic closing of brackets, quotes, etc.
+{
+    "windwp/nvim-autopairs",
+    event = "InsertEnter",
+    config = function()
+        require("nvim-autopairs").setup {}
+    end,
+},
+
+-- Gitsigns plugin for Git integration and inline diff/blame
+{
+    "lewis6991/gitsigns.nvim",
+    event = "BufRead",
+    config = function()
+        require("gitsigns").setup()
+    end,
+},
+
+-- Comment.nvim plugin for commenting functionality
+{
+    "numToStr/Comment.nvim",
+    event = "BufRead",
+    config = function()
+        require("Comment").setup()
+    end,
+},
+
   
 }
 
