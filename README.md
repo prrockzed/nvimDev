@@ -52,7 +52,6 @@
 - [Support](#support)
 - [Acknowledgements](#acknowledgements)
 
-
 Note: Installation and Contribution is right at the top of this page
 
 ---
@@ -112,6 +111,7 @@ If you have any questions related to using Neovim, encounter issues, or wish to 
 ---
 
 ## Custom Configuration
+
 To create a custom configuration for Neovim, follow these steps:
 
 - Create a custom configuration folder:
@@ -121,6 +121,7 @@ To create a custom configuration for Neovim, follow these steps:
   ```bash
   mkdir -p ~/.config/nvim/lua/custom
   ```
+
 - Create a custom init.lua file:
 
   Inside the custom folder, create a new Lua file to hold your custom configurations. For example, create a file named my_config.lua:
@@ -143,7 +144,7 @@ To create a custom configuration for Neovim, follow these steps:
 
   ```bash
   -- Example custom configuration
-  vim.o.number = true             
+  vim.o.number = true
   vim.o.relativenumber = true
   ```
 
