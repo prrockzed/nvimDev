@@ -186,3 +186,17 @@ If you're interested in supporting the development of nvimDev further, please co
 Thanks to [Neovim](https://github.com/neovim/neovim) for enabling the creation of a powerful and customizable terminal-based code editor.
 </br>
 A special thank you to the creators and maintainers of the plugins used in the repo, which have significantly improved the functionality and user experience of nvimDev.
+
+## Contributing People List
+
+> Contributions are welcome!
+
+Specially thanks ❤️ for contributors bellow:
+
+<a href="https://github.com/jahnvisahni31/github-readme-profile/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=prrockzed/nvimDev" />
+</a>
+
+## Contributors
+
+| [MIGHTY1o1](https://github.com/MIGHTY1o1) | [Muhammad Ahsan Atiq](https://github.com/Muhammad Ahsan Atiq) | [Priyanshu Ranjan](https://github.com/Priyanshu Ranjan) | [Shariq](https://github.com/Shariq) | [prrockzed](https://github.com/prrockzed) | |
