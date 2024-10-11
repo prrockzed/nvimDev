@@ -199,4 +199,5 @@ Specially thanks ❤️ for contributors bellow:
 
 ## Contributors
 
-| [MIGHTY1o1](https://github.com/MIGHTY1o1) | [Muhammad Ahsan Atiq](https://github.com/Muhammad Ahsan Atiq) | [Priyanshu Ranjan](https://github.com/Priyanshu Ranjan) | [Shariq](https://github.com/Shariq) | [prrockzed](https://github.com/prrockzed) | |
+| [MIGHTY1o1](https://github.com/MIGHTY1o1) | [Muhammad Ahsan Atiq](https://github.com/Muhammad Ahsan Atiq) | [Priyanshu Ranjan](https://github.com/Priyanshu Ranjan) | [Shariq](https://github.com/Shariq) | [prrockzed](https://github.com/prrockzed) |  |
+
