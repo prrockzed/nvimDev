@@ -188,3 +188,6 @@ We extend our heartfelt gratitude for your invaluable contribution to our projec
 ---
 
 ## Contributors
+
+| [MIGHTY1o1](https://github.com/MIGHTY1o1) | [Muhammad Ahsan Atiq](https://github.com/Muhammad Ahsan Atiq) | [Priyanshu Ranjan](https://github.com/Priyanshu Ranjan) | [Shariq](https://github.com/Shariq) | [prrockzed](https://github.com/prrockzed) |  |
+
