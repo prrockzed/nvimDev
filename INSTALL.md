@@ -72,20 +72,6 @@ Both installations allowed files to be created, opened, and basic commands to be
 -**Solution**: Check if virtualization is enabled in the BIOS/UEFI settings. Enable it if necessary, and ensure
                that WSL or any other virtualization-dependent features are properly set up.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Downloading from Releases
 
 Like a specific release? Download from previous releases
