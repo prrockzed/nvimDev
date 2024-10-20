@@ -40,6 +40,10 @@ So, let's take the time to clone the repository manually(it's easy)
 
 ---
 
+## Clone (Windows)
+
+Instructions for cloning the on windows system
+
 ## Clone (Linux/MacOS/WSL)
 
    ```sh
@@ -47,25 +51,39 @@ So, let's take the time to clone the repository manually(it's easy)
    git clone https://github.com/prrockzed/nvimDev.git ~/.config/nvim
    ```
 
-## clone (windows)
-
-Instructions for cloning the on windows system
-
 ## Verification Results
 
-I Have Verified that both powershell and WSL installations of nvimDev work correctly
+Both PowerShell and WSL installations of nvimDev were verified to work correctly.
 
 - **PowerShell Installation**: Successfully Launched Neovim Without Errors
 - **WSL Installation**: Successfully Launched Neovim Without Errors
 
-Both Installations Allowed to Create And Open Files and Execute Basic Commands Without Any Issues
+Both installations allowed files to be created, opened, and basic commands to be executed without any issues.
 
 ## Troubleshooting Problems 
 
 -**Issue**: Neovim Does not Start
- -**Solution**: Ensure That Neovim is Installed Correctly And That Path is Added to Your Environmental Variables
+-**Solution**: Ensure That Neovim is Installed Correctly And That Path is Added to Your Environmental Variables
+ 
 -**Issue**: Plugins Not Loading 
- -**Solution**: Make Sure All Dependencies Are Installed , Including ripgrep and any Required Fonts
+-**Solution**: Make Sure All Dependencies Are Installed , Including ripgrep and any Required Fonts
+ 
+-**Issue**: Virtualization not enabled
+-**Solution**: Check if virtualization is enabled in the BIOS/UEFI settings. Enable it if necessary, and ensure
+   that WSL or any other virtualization-dependent features are properly set up.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Downloading from Releases
