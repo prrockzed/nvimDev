@@ -70,7 +70,7 @@ Both installations allowed files to be created, opened, and basic commands to be
  
 -**Issue**: Virtualization not enabled
 -**Solution**: Check if virtualization is enabled in the BIOS/UEFI settings. Enable it if necessary, and ensure
-   that WSL or any other virtualization-dependent features are properly set up.
+               that WSL or any other virtualization-dependent features are properly set up.
 
 
 
