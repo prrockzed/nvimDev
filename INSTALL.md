@@ -56,13 +56,14 @@ export PATH=$PATH:/usr/local/bin/nvim
 -**Solution**: Make sure all dependencies are installed, including ripgrep and any required fonts. You can install ripgrep with:
 
 -On Ubuntu/Debian 
- 
+ ```sh
 sudo apt install ripgrep
+```
 
 -On MacOS
- 
+ ```sh
 brew install ripgrep
-
+```
  
 -**Issue**: Virtualization not enabled
 
