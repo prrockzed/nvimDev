@@ -41,59 +41,59 @@ So, let's take the time to clone the repository manually(it's easy)
 ---
 ## Troubleshooting Problems 
 
--**Issue**: Neovim Does not Start
+- **Issue**: Neovim Does not Start
 
--**Solution**: Ensure That Neovim is Installed Correctly And That Path is Added to Your Environmental Variables
+- **Solution**: Ensure That Neovim is Installed Correctly And That Path is Added to Your Environmental Variables
 
-To add Neovim to your PATH on Linux/MacOS, 
+  To add Neovim to your PATH on Linux/MacOS, 
 
-open your .bashrc or .zshrc file and add the following line: 
+  open your .bashrc or .zshrc file and add the following line: 
 
-export PATH=$PATH:/usr/local/bin/nvim
+  export PATH=$PATH:/usr/local/bin/nvim
  
--**Issue**: Plugins Not Loading 
+- **Issue**: Plugins Not Loading 
 
--**Solution**: Make sure all dependencies are installed, including ripgrep and any required fonts. You can install ripgrep with:
+- **Solution**: Make sure all dependencies are installed, including ripgrep and any required fonts. You can install ripgrep with:
 
--On Ubuntu/Debian 
+- On Ubuntu/Debian 
  ```sh
 sudo apt install ripgrep
 ```
 
--On MacOS
+- On MacOS
  ```sh
 brew install ripgrep
 ```
  
--**Issue**: Virtualization not enabled
+- **Issue**: Virtualization not enabled
 
--**Solution**: Check if virtualization is enabled in the BIOS/UEFI settings. Enable it if necessary, and ensure that WSL or any other virtualization-dependent features are properly set up
+- **Solution**: Check if virtualization is enabled in the BIOS/UEFI settings. Enable it if necessary, and ensure that WSL or any other virtualization-dependent features are properly set up
 
 ## Clone (Windows)
 Here are the instructions for cloning the repository on a Windows system:
 
--Install Git for Windows.
+- Install Git for Windows.
 
--Open Git Bash or Command Prompt as Administrator.
+- Open Git Bash or Command Prompt as Administrator.
 
--Use the following command to clone the repository into the correct directory:
+- Use the following command to clone the repository into the correct directory:
 
 ```sh
 git clone https://github.com/prrockzed/nvimDev.git 
  %USERPROFILE%\.config\nvim
 ```
  
--Make sure to add Neovim to your system's 
- PATH variable:
+- Make sure to add Neovim to your system's 
+  PATH variable:
 
-  -Right-click on "This PC" or "Computer" in      File Explorer, then select Properties.        
+  - Right-click on "This PC" or "Computer" in      File Explorer, then select Properties.        
   
-  -Click Advanced system settings and then         Environment Variables. 
+  - Click Advanced system settings and then         Environment Variables. 
   
 
-  -Under System Variables, find the Path           variable, select it, and click Edit.
+  - Under System Variables, find the Path           variable, select it, and click Edit.
 
-  -Add the path to Neovim's installation             folder (e.g., C:\Program                     Files\Neovim\bin) and                        click OK
+  - Add the path to Neovim's installation             folder (e.g., C:\Program                     Files\Neovim\bin) and                        click OK
 
 
 ## Clone (Linux/MacOS/WSL)
